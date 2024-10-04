@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../core/utils/app_images.dart';
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -9,7 +11,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Color(0xff98B3E1),
       body: Column(
         children: [
-          Image(image: AssetImage(Assets),),
+          Image(image: AssetImage(Assets.assetsImagesVector),),
         ],
       ),
     );
