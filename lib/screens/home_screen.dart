@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Color(0xff98B3E1),
       body: Column(
         children: [
-          //Image(image: AssetImage('images/Vector.png'),),
+          Image(image: AssetImage(Assets),),
         ],
       ),
     );
