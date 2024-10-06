@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
 import 'package:graduation_project/core/utils/app_images.dart';
 import 'package:graduation_project/onboarding_screen/ui/widgets/dots.dart';
 import 'package:graduation_project/onboarding_screen/ui/widgets/text_scetion.dart';
-
 import '../widgets/doctor_image.dart';
 import '../widgets/navigation_button.dart';
 
@@ -29,7 +27,7 @@ class onboardingView extends StatelessWidget {
             const Text(
               'Medify',
               style: TextStyle(
-                color: Color(0xff223A6A),
+                color:Colors.black, //Color(0xff223A6A),
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
               ),

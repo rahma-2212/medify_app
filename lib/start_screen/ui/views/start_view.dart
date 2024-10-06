@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
 import 'package:graduation_project/core/utils/app_images.dart';
+import 'package:graduation_project/start_screen/ui/widgets/custom_button.dart';
 
 class StartView extends StatelessWidget {
   const StartView({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,41 +49,28 @@ class StartView extends StatelessWidget {
               ),
             ),
             const Gap(35),
-            MaterialButton(
-                height: 56,
-                minWidth: 200,
-                color: const Color(0xff407CE2),
-                shape: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(32),
-                  borderSide: BorderSide.none,
-                ),
-                onPressed: () {},
-                child: const Text(
-                  "Login",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 14,
-                  ),
-                )),
+            customButton(
+              text: 'Login',
+              backgroundColor: const Color(0xff407CE2),
+              textColor: Colors.white,
+              buttonWidth: 200,
+              buttonHeight: 56,
+              onpressed: () {},
+              radius: 32,
+              fontsize: 15,
+            ),
             const Gap(15),
-            MaterialButton(
-                height: 56,
-                minWidth: 200,
-                color: Colors.white,
-                shape: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(32),
-                  borderSide: const BorderSide(
-                    color: Color(0xff407CE2),
-                  ),
-                ),
-                onPressed: () {},
-                child: const Text(
-                  "Sign up",
-                  style: TextStyle(
-                    color: Color(0xff407CE2),
-                    fontSize: 14,
-                  ),
-                )),
+            customButton(
+              text: "Sign up",
+              backgroundColor: Colors.white,
+              textColor: const Color(0xff407CE2),
+              buttonWidth: 200,
+              buttonHeight: 56,
+              onpressed: () {},
+              radius: 32,
+              fontsize: 15,
+              borderColor: const Color(0xff407CE2),
+            ),
           ],
         ),
       ),

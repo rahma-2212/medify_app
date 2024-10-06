@@ -20,8 +20,8 @@ class gradeApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home://SplashView(),
-             onboardingView(),
-            //StartView(),
+             //onboardingView(),
+            StartView(),
 
     );
 
