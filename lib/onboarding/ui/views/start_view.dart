@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
 import 'package:graduation_project/core/utils/app_images.dart';
-import 'package:graduation_project/start_screen/ui/widgets/custom_button.dart';
+import 'package:graduation_project/core/utils/app_styles.dart';
+import 'package:graduation_project/core/widgets/custom_button.dart';
+import '../../../core/theme/app_colors.dart';
 
 class StartView extends StatelessWidget {
   const StartView({super.key});
@@ -39,37 +41,26 @@ class StartView extends StatelessWidget {
               ),
             ),
             const Gap(0.5),
-            const Text(
+             Text(
               'Login to stay healthy and fit',
-              style: TextStyle(
-                fontSize: 16,
-                color: Color.fromARGB(255, 66, 65, 65),
-                fontWeight: FontWeight.normal,
-                fontFamily: 'Poppins',
-              ),
+              style:AppStyles.regular16,
             ),
             const Gap(35),
-            customButton(
+            CustomButton(
               text: 'Login',
-              backgroundColor: const Color(0xff407CE2),
+              backgroundColor: AppColors.secondaryColor,
               textColor: Colors.white,
               buttonWidth: 200,
-              buttonHeight: 56,
-              onpressed: () {},
-              radius: 32,
-              fontsize: 15,
+              onPressed: () {},
             ),
             const Gap(15),
-            customButton(
+            CustomButton(
               text: "Sign up",
               backgroundColor: Colors.white,
-              textColor: const Color(0xff407CE2),
+              textColor: AppColors.secondaryColor,
               buttonWidth: 200,
-              buttonHeight: 56,
-              onpressed: () {},
-              radius: 32,
-              fontsize: 15,
-              borderColor: const Color(0xff407CE2),
+              onPressed: () {},
+              borderColor: AppColors.secondaryColor,
             ),
           ],
         ),
