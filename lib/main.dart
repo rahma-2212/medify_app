@@ -1,6 +1,6 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'splash/ui/views/splash_view.dart';
+import 'package:graduation_project/splash/ui/views/splash_view.dart';
 
 void main() {
   runApp(
@@ -16,11 +16,19 @@ class MedifyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.white,
+          elevation: 0,
+        ),
+      ),
       debugShowCheckedModeBanner: false,
-      home: SplashView(),
-            //OnboardingView(),
-          //StartView(),
+      home: const SplashView()
+      //const ProfileView(),
+      //OnboardingView(),
+      //StartView(),
     );
   }
 }
