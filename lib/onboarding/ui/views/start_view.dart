@@ -41,9 +41,9 @@ class StartView extends StatelessWidget {
               ),
             ),
             const Gap(0.5),
-             Text(
+            Text(
               'Login to stay healthy and fit',
-              style:AppStyles.regular16,
+              style: AppStyles.regular16,
             ),
             const Gap(35),
             CustomButton(
@@ -51,7 +51,12 @@ class StartView extends StatelessWidget {
               backgroundColor: AppColors.secondaryColor,
               textColor: Colors.white,
               buttonWidth: 200,
-              onPressed: () {},
+              onPressed: () {
+                //   Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (context) => const LoginScreen()),
+                // );
+              },
             ),
             const Gap(15),
             CustomButton(
@@ -59,7 +64,12 @@ class StartView extends StatelessWidget {
               backgroundColor: Colors.white,
               textColor: AppColors.secondaryColor,
               buttonWidth: 200,
-              onPressed: () {},
+              onPressed: () {
+                //   Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (context) => const IntialSignUpView()),
+                // );
+              },
               borderColor: AppColors.secondaryColor,
             ),
           ],

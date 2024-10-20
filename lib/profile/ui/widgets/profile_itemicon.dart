@@ -5,7 +5,7 @@ import 'package:graduation_project/core/theme/app_colors.dart';
 class ProfileItemIcon extends StatelessWidget {
   const ProfileItemIcon({
     super.key,
-    required this.iconPath,
+    required this.iconPath, 
   });
   final String iconPath;
 
@@ -22,7 +22,8 @@ class ProfileItemIcon extends StatelessWidget {
       ),
       child: SvgPicture.asset(
         iconPath,
-        // color: AppColors.blueColor,
+         // ignore: deprecated_member_use
+         color: AppColors.blueColor,
       ),
     );
   }

@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:graduation_project/core/utils/app_images.dart';
 import 'package:graduation_project/core/utils/app_styles.dart';
 import 'package:graduation_project/profile/ui/widgets/edit_icon.dart';
 import 'package:graduation_project/profile/ui/widgets/profile_image.dart';
-
-import 'profile_item.dart';
+import 'package:graduation_project/profile/ui/widgets/profile_items.dart';
 
 class ProfileViewBody extends StatelessWidget {
   const ProfileViewBody({
@@ -36,54 +34,6 @@ class ProfileViewBody extends StatelessWidget {
           const ProfileItems()
         ],
       ),
-    );
-  }
-}
-
-class ProfileItems extends StatelessWidget {
-  const ProfileItems({
-    super.key,
-  });
-  static const List<ProfileItem> items = [
-    ProfileItem(
-      text: 'Profile',
-      iconPath: Assets.assetsImagesPerson,
-    ),
-    // favorite doc
-    ProfileItem(
-      text: 'Favorite Doctors',
-      iconPath: Assets.assetsImagesFavoriteDoctors,
-    ),
-    // Your Appointments
-    ProfileItem(
-      text: 'Your Appointments',
-      iconPath: Assets.assetsImagesAppointment,
-    ),
-    // history
-    ProfileItem(
-      text: 'History',
-      iconPath: Assets.assetsImagesHistory,
-    ),
-    // settings
-    ProfileItem(
-      text: 'Settings',
-      iconPath: Assets.assetsImagesSetting,
-    ),
-    // help
-    ProfileItem(
-      text: 'Help',
-      iconPath: Assets.assetsImagesHelp,
-    ),
-    // logout
-    ProfileItem(
-      text: 'Logout',
-      iconPath: Assets.assetsImagesLogout,
-    ),
-  ];
-  @override
-  Widget build(BuildContext context) {
-    return const Column(
-      children: items,
     );
   }
 }
