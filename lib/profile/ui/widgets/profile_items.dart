@@ -36,7 +36,6 @@ class ProfileItems extends StatelessWidget {
       text: 'heart diseases',
       iconPath: Assets.assetsImagesAnatomicalHeart,
     ),
-
     // about us
     ProfileItem(
       text: 'about us',
@@ -52,6 +51,7 @@ class ProfileItems extends StatelessWidget {
       text: 'visit website',
       iconPath: Assets.assetsImagesGlobe,
     ),
+    
     //logout
     ProfileItem(
       text: 'Logout',

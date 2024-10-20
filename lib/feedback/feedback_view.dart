@@ -50,7 +50,7 @@ class FeedbackView extends StatelessWidget {
             ),
             TextField(
               decoration: InputDecoration(
-                labelText: 'Email Address',
+                hintText: 'Email Address',
                 filled: true,
                 fillColor:const Color(0xffd9d9d9),
                 border: OutlineInputBorder(
@@ -64,7 +64,7 @@ class FeedbackView extends StatelessWidget {
             ),
             TextField(
               decoration: InputDecoration(
-                labelText: 'Subject',
+                hintText: 'Subject',
                 filled: true,
                 fillColor:const Color(0xffd9d9d9),
                 border: OutlineInputBorder(
@@ -78,7 +78,7 @@ class FeedbackView extends StatelessWidget {
             ),
             TextField(
               decoration: InputDecoration(
-                labelText: 'Feedback...',
+                hintText: 'Feedback...',
                 filled: true,
                 fillColor: const Color(0xffd9d9d9),
                 border: OutlineInputBorder(
@@ -86,7 +86,7 @@ class FeedbackView extends StatelessWidget {
                   borderSide: BorderSide.none,
                 ),
               ),
-              maxLines: 5,
+              maxLines:5,
             ),
             const SizedBox(
               height: 30,
