@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:graduation_project/onboarding/ui/views/onboarding_view.dart';
+import 'package:graduation_project/features/onboarding/ui/views/onboarding_view.dart';
 import '../widgets/splash_body.dart';
 import 'dart:async';
 

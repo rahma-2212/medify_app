@@ -30,6 +30,10 @@ class Assets {
   /// assets/images/chat.svg
   static const String assetsImagesChat = "assets/images/chat.svg";
 
+  /// Assets for assetsImagesDarkMode
+  /// assets/images/dark-mode.svg
+  static const String assetsImagesDarkMode = "assets/images/dark-mode.svg";
+
   /// Assets for assetsImagesDoc
   /// assets/images/doc.png
   static const String assetsImagesDoc = "assets/images/doc.png";
@@ -38,13 +42,25 @@ class Assets {
   /// assets/images/doctor.png
   static const String assetsImagesDoctor = "assets/images/doctor.png";
 
+  /// Assets for assetsImagesDoctorIcon
+  /// assets/images/doctor_icon.png
+  static const String assetsImagesDoctorIcon = "assets/images/doctor_icon.png";
+
   /// Assets for assetsImagesDoctors
   /// assets/images/doctors.svg
   static const String assetsImagesDoctors = "assets/images/doctors.svg";
 
+  /// Assets for assetsImagesFacebook
+  /// assets/images/Facebook.png
+  static const String assetsImagesFacebook = "assets/images/Facebook.png";
+
   /// Assets for assetsImagesFavoriteDoctors
   /// assets/images/favorite_doctors.svg
   static const String assetsImagesFavoriteDoctors = "assets/images/favorite_doctors.svg";
+
+  /// Assets for assetsImagesFavoriteIcon
+  /// assets/images/favorite_icon.svg
+  static const String assetsImagesFavoriteIcon = "assets/images/favorite_icon.svg";
 
   /// Assets for assetsImagesFeedback
   /// assets/images/feedback.svg
@@ -57,6 +73,10 @@ class Assets {
   /// Assets for assetsImagesGlobe 
   /// assets/images/globe .svg
   static const String assetsImagesGlobe  = "assets/images/globe .svg";
+
+  /// Assets for assetsImagesGoogle
+  /// assets/images/Google.png
+  static const String assetsImagesGoogle = "assets/images/Google.png";
 
   /// Assets for assetsImagesHealthCare
   /// assets/images/health_care.svg
@@ -98,6 +118,10 @@ class Assets {
   /// assets/images/password.svg
   static const String assetsImagesPassword = "assets/images/password.svg";
 
+  /// Assets for assetsImagesPatientIcon
+  /// assets/images/patient_icon.png
+  static const String assetsImagesPatientIcon = "assets/images/patient_icon.png";
+
   /// Assets for assetsImagesPerson
   /// assets/images/person.svg
   static const String assetsImagesPerson = "assets/images/person.svg";
@@ -110,6 +134,10 @@ class Assets {
   /// assets/images/setting.svg
   static const String assetsImagesSetting = "assets/images/setting.svg";
 
+  /// Assets for assetsImagesSignUpBackground
+  /// assets/images/sign_up_background.jpg
+  static const String assetsImagesSignUpBackground = "assets/images/sign_up_background.jpg";
+
   /// Assets for assetsImagesSocial
   /// assets/images/social.svg
   static const String assetsImagesSocial = "assets/images/social.svg";
@@ -117,6 +145,10 @@ class Assets {
   /// Assets for assetsImagesSplashBackground
   /// assets/images/splash_background.png
   static const String assetsImagesSplashBackground = "assets/images/splash_background.png";
+
+  /// Assets for assetsImagesStar
+  /// assets/images/Star.svg
+  static const String assetsImagesStar = "assets/images/Star.svg";
 
   /// Assets for assetsImagesTypes
   /// assets/images/types.jpg
