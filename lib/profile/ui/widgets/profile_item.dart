@@ -9,9 +9,11 @@ class ProfileItem extends StatelessWidget {
     super.key,
     required this.text,
     required this.iconPath,
+    this.onTap,
   });
   final String text;
   final String iconPath;
+  final VoidCallback? onTap;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -27,9 +29,12 @@ class ProfileItem extends StatelessWidget {
             text: text,
           ),
           const Spacer(),
-          const Icon(
-            Icons.arrow_forward_ios,
-            color: AppColors.iconBackColor,
+          InkWell(
+            onTap: onTap,
+            child: const Icon(
+              Icons.arrow_forward_ios,
+              color: AppColors.iconBackColor,
+            ),
           )
         ],
       ),

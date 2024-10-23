@@ -16,19 +16,18 @@ class FeedbackView extends StatelessWidget {
             Icons.arrow_back_ios,
             color: AppColors.blueColor,
           ),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
         ),
-        title: const Text(
+        title: Text(
           'FeedBack',
-          style: TextStyle(
+          style: AppStyles.bold22.copyWith(
             color: AppColors.blueColor,
-            fontSize: 22,
-            fontWeight: FontWeight.bold,
           ),
         ),
         centerTitle: true,
       ),
-  
       body: Padding(
         padding: const EdgeInsets.all(30),
         child: Column(
@@ -52,7 +51,7 @@ class FeedbackView extends StatelessWidget {
               decoration: InputDecoration(
                 hintText: 'Email Address',
                 filled: true,
-                fillColor:const Color(0xffd9d9d9),
+                fillColor: const Color(0xffd9d9d9),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                   borderSide: BorderSide.none,
@@ -66,7 +65,7 @@ class FeedbackView extends StatelessWidget {
               decoration: InputDecoration(
                 hintText: 'Subject',
                 filled: true,
-                fillColor:const Color(0xffd9d9d9),
+                fillColor: const Color(0xffd9d9d9),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                   borderSide: BorderSide.none,
@@ -86,44 +85,37 @@ class FeedbackView extends StatelessWidget {
                   borderSide: BorderSide.none,
                 ),
               ),
-              maxLines:5,
+              maxLines: 5,
             ),
             const SizedBox(
               height: 30,
             ),
 
             ElevatedButton(
-            onPressed: () {},
-            style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0xff0062ff),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12),
+              onPressed: () {},
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xff0062ff),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+              child: Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 60, vertical: 15),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      'submit',
+                      style: AppStyles.regular18,
+                    ),
+                  ],
+                ),
               ),
             ),
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 15),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    'submit',
-                    style: AppStyles.regular18,  
-                  ),
-                ],
-              ),
-            ),
-          ),
-            
           ],
         ),
       ),
     );
   }
 }
-
-
-
-
-
-
-

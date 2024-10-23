@@ -1,6 +1,8 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'package:graduation_project/feedback/feedback_view.dart';
+
+import 'heart diseases/ui/views/heart_diseases.dart';
+import 'settings/ui/views/settings.dart';
 
 void main() {
   runApp(
@@ -25,7 +27,7 @@ class MedifyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: const FeedbackView(),
+      home: const SettingsView(),
       //const SplashView(),
       //const ProfileView(),
       //OnboardingView(),
