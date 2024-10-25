@@ -5,6 +5,8 @@ import 'package:graduation_project/core/utils/app_images.dart';
 import 'package:graduation_project/core/utils/app_styles.dart';
 import 'package:graduation_project/core/widgets/custom_button.dart';
 import '../../../../core/theme/app_colors.dart';
+import '../../../authentication/login/ui/views/login_view.dart';
+import '../../../authentication/signup/ui/views/intial_sign_up_view.dart';
 
 class StartView extends StatelessWidget {
   const StartView({super.key});
@@ -52,10 +54,10 @@ class StartView extends StatelessWidget {
               textColor: Colors.white,
               buttonWidth: 200,
               onPressed: () {
-                //   Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => const LoginScreen()),
-                // );
+                  Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const LoginScreen()),
+                );
               },
             ),
             const Gap(15),
@@ -65,10 +67,10 @@ class StartView extends StatelessWidget {
               textColor: AppColors.secondaryColor,
               buttonWidth: 200,
               onPressed: () {
-                //   Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => const IntialSignUpView()),
-                // );
+                  Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const IntialSignUpView()),
+                );
               },
               borderColor: AppColors.secondaryColor,
             ),

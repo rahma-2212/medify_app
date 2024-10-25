@@ -10,7 +10,7 @@ class IntialSignUpView extends StatelessWidget {
     return Scaffold(
       body: Container(
         width: double.infinity,
-        decoration:  BoxDecoration(
+        decoration:  const BoxDecoration(
           image: DecorationImage(
             opacity: 0.9,
             image: AssetImage(

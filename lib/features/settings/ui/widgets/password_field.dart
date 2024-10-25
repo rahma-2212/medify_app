@@ -10,6 +10,16 @@ class PasswordField extends StatelessWidget {
     return TextFormField(
       obscureText: true,
       decoration: InputDecoration(
+        focusedBorder: OutlineInputBorder(
+              borderSide: const BorderSide(color: Color(0XFF2260FF),
+              ),
+              borderRadius:BorderRadius.circular(20),
+            ),
+            enabledBorder: OutlineInputBorder(
+              borderSide: const BorderSide(color: Color(0XFF2260FF),
+              ),
+              borderRadius: BorderRadius.circular(20),
+            ),
         labelText: labelText,
         labelStyle: const TextStyle(
           color: Colors.black,

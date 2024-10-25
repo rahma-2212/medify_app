@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class GradientButton extends StatelessWidget {
   final void Function()? onpressed;
-  const GradientButton({this.onpressed});
+  const GradientButton({super.key, this.onpressed});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -34,7 +34,7 @@ class GradientButton extends StatelessWidget {
           children: [
             Text(
               'Next',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 16.0,
                 fontFamily: 'Inter', // Optional: Add font family if needed
               ),
