@@ -19,9 +19,15 @@ class LabeledTextField extends StatelessWidget {
       child: SizedBox(
         width: width,
         child: TextFormField(
+          enabled:false,
           initialValue: initialValue,
           style: const TextStyle(fontSize: 25, color: Colors.black),
           decoration: InputDecoration(
+            disabledBorder: OutlineInputBorder(
+              borderSide: const BorderSide(color: Color(0XFF2260FF),
+              ),
+              borderRadius: BorderRadius.circular(20),
+            ),
             enabledBorder: OutlineInputBorder(
               borderSide: const BorderSide(color: Color(0XFF2260FF),
               ),

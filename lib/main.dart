@@ -1,10 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'package:graduation_project/features/profile/ui/views/myprofile_view.dart';
-import 'package:graduation_project/features/profile/ui/views/profile_view.dart';
-//import 'package:graduation_project/features/authentication/signup/ui/views/intial_sign_up_view.dart';
-//import 'splash/ui/views/splash_view.dart';
-//import 'features/favorite_docs/ui/views/favorite_doc_view.dart';
+import 'features/doctors/ui/views/doc_view.dart';
+import 'features/doctors/ui/views/doctor_profile.dart';
 
 void main() {
   runApp(
@@ -29,7 +26,7 @@ class MedifyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: const ProfileView(),
+      home: const Posts(),
       //const SplashView(),
       //const IntialSignUpView(),
       //OnboardingView(),
