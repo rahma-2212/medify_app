@@ -45,7 +45,7 @@ class AppointmentsViewBody extends StatelessWidget {
             SliverToBoxAdapter(
               child: Center(
                 child: Text(
-                  'Your Appointments',
+                  'My Appointments',
                   style: AppStyles.bold20.copyWith(
                     // color: AppColors.blueColor,
                     color: Colors.black,

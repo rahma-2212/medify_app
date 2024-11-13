@@ -9,6 +9,13 @@ class AppStyles {
     fontSize: 9,
     color: Color(0xFFFFFFFF),
   );
+  // 10
+  static TextStyle regular10 = const TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+    fontSize: 10,
+    color: Color(0xFFFFFFFF),
+  );
   // 12
   static TextStyle regular12 = const TextStyle(
     fontFamily: 'Poppins',
@@ -67,6 +74,13 @@ class AppStyles {
     color: Color(0xFFFFFFFF),
   );
   // bold 16
+  //10
+  static TextStyle bold10 = const TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w700,
+    fontSize: 10,
+    color: Color(0xFFFFFFFF),
+  );
   static TextStyle bold16 = const TextStyle(
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w700,

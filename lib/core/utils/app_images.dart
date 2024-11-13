@@ -6,6 +6,10 @@ class Assets {
   /// assets/images/about_image.jpg
   static const String assetsImagesAboutImage = "assets/images/about_image.jpg";
 
+  /// Assets for assetsImagesAddFav
+  /// assets/images/add_fav.svg
+  static const String assetsImagesAddFav = "assets/images/add_fav.svg";
+
   /// Assets for assetsImagesAnatomicalHeart
   /// assets/images/anatomical-heart.svg
   static const String assetsImagesAnatomicalHeart = "assets/images/anatomical-heart.svg";
@@ -18,13 +22,25 @@ class Assets {
   /// assets/images/appointment.svg
   static const String assetsImagesAppointment = "assets/images/appointment.svg";
 
+  /// Assets for assetsImagesAppointmentDoc
+  /// assets/images/appointment_doc.jpg
+  static const String assetsImagesAppointmentDoc = "assets/images/appointment_doc.jpg";
+
   /// Assets for assetsImagesArrowRight
   /// assets/images/arrow-right.svg
   static const String assetsImagesArrowRight = "assets/images/arrow-right.svg";
 
+  /// Assets for assetsImagesBackProfile
+  /// assets/images/back_profile.png
+  static const String assetsImagesBackProfile = "assets/images/back_profile.png";
+
+  /// Assets for assetsImagesBackgroundProfile
+  /// assets/images/background_profile.jpg
+  static const String assetsImagesBackgroundProfile = "assets/images/background_profile.jpg";
+
   /// Assets for assetsImagesCalender
-  /// assets/images/calender.svg
-  static const String assetsImagesCalender = "assets/images/calender.svg";
+  /// assets/images/calender.jpg
+  static const String assetsImagesCalender = "assets/images/calender.jpg";
 
   /// Assets for assetsImagesCat
   /// assets/images/cat.png
@@ -122,6 +138,10 @@ class Assets {
   /// assets/images/logout.svg
   static const String assetsImagesLogout = "assets/images/logout.svg";
 
+  /// Assets for assetsImagesMessenger
+  /// assets/images/messenger.svg
+  static const String assetsImagesMessenger = "assets/images/messenger.svg";
+
   /// Assets for assetsImagesNote1
   /// assets/images/note1.svg
   static const String assetsImagesNote1 = "assets/images/note1.svg";
@@ -137,6 +157,10 @@ class Assets {
   /// Assets for assetsImagesPerson
   /// assets/images/person.svg
   static const String assetsImagesPerson = "assets/images/person.svg";
+
+  /// Assets for assetsImagesPhone
+  /// assets/images/phone.svg
+  static const String assetsImagesPhone = "assets/images/phone.svg";
 
   /// Assets for assetsImagesSearch
   /// assets/images/search.svg

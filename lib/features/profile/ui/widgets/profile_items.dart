@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:graduation_project/features/about%20us/ui/views/aboutus_view.dart';
 import 'package:graduation_project/core/utils/app_images.dart';
+import 'package:graduation_project/features/favorite_docs/ui/views/FavoriteDoctors.dart';
 import 'package:graduation_project/features/heart%20diseases/ui/views/heart_diseases.dart';
 import 'package:graduation_project/features/onboarding/ui/views/start_view.dart';
-import 'package:graduation_project/features/profile/ui/views/appointments_view.dart';
-import 'package:graduation_project/features/profile/ui/views/myprofile_view.dart';
+import 'package:graduation_project/features/profile/ui/views/MyAppointments_view.dart';
+//import 'package:graduation_project/features/profile/ui/views/myprofile_view.dart';
 import 'package:graduation_project/features/profile/ui/widgets/profile_item.dart';
 import 'package:graduation_project/features/settings/ui/views/settings.dart';
 import '../../../../core/theme/app_colors.dart';
@@ -18,22 +19,30 @@ class ProfileItems extends StatelessWidget {
     super.key,
   });
   static List<ProfileItem> getitems(context) => [
-        ProfileItem(
+        const ProfileItem(
           text: 'Profile',
           iconPath: Assets.assetsImagesPerson,
+          // onTap: () {
+          //   Navigator.push(
+          //     context,
+          //     MaterialPageRoute(
+          //       builder: (context) => const MyprofileView(),
+          //     ),
+          //   );
+          // },
+        ),
+        // favorite doc
+        ProfileItem(
+          text: 'Favorite Doctors',
+          iconPath: Assets.assetsImagesFavoriteDoctors,
           onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => const MyprofileView(),
+                builder: (context) => const Favoritedoctors(),
               ),
             );
           },
-        ),
-        // favorite doc
-        const ProfileItem(
-          text: 'Favorite Doctors',
-          iconPath: Assets.assetsImagesFavoriteDoctors,
         ),
         // Your Appointments
         ProfileItem(

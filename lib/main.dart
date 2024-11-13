@@ -1,7 +1,6 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'features/doctors/ui/views/doc_view.dart';
-import 'features/doctors/ui/views/doctor_profile.dart';
+import 'features/booking/ui/views/booking.dart';
 
 void main() {
   runApp(
@@ -26,7 +25,7 @@ class MedifyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: const Posts(),
+      home: const AppointmentPage(),
       //const SplashView(),
       //const IntialSignUpView(),
       //OnboardingView(),

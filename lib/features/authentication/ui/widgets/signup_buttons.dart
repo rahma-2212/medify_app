@@ -24,7 +24,7 @@ class SignupButtons extends StatelessWidget {
           icon: Assets.assetsImagesPatientIcon,
           type: 'Patient',
           onTap: () {
-            print('Patient');
+            //print('Patient');
           },
         ),
       ],
