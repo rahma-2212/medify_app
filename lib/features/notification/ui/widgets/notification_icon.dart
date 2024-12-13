@@ -20,7 +20,7 @@ class NotificationIcon extends StatelessWidget {
       child: SvgPicture.asset(
         iconPath,
          // ignore: deprecated_member_use
-         color:Colors.white //AppColors.blueColor,
+          color:Colors.white //AppColors.blueColor,
       ),
     );
   }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../../about us/ui/views/aboutus_view.dart';
 import '../../../doctors/ui/widgets/doc_card.dart';
 

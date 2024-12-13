@@ -38,9 +38,13 @@ class Assets {
   /// assets/images/background_profile.jpg
   static const String assetsImagesBackgroundProfile = "assets/images/background_profile.jpg";
 
+  /// Assets for assetsImagesCalendar
+  /// assets/images/calendar.svg
+  static const String assetsImagesCalendar = "assets/images/calendar.svg";
+
   /// Assets for assetsImagesCalender
-  /// assets/images/calender.jpg
-  static const String assetsImagesCalender = "assets/images/calender.jpg";
+  /// assets/images/calender.svg
+  static const String assetsImagesCalender = "assets/images/calender.svg";
 
   /// Assets for assetsImagesCat
   /// assets/images/cat.png
@@ -191,7 +195,7 @@ class Assets {
   static const String assetsImagesTypes = "assets/images/types.jpg";
 
   /// Assets for assetsImagesVector
-  /// assets/images/Vector.png
-  static const String assetsImagesVector = "assets/images/Vector.png";
+  /// assets/images/Vector.svg
+  static const String assetsImagesVector = "assets/images/Vector.svg";
 }
 
